@@ -195,3 +195,8 @@ Prompts and documentation: **CC BY 4.0**. Use them, adapt them, credit the sourc
 This is general material, not advice for a specific project. Nothing here replaces a competent
 person on site, a qualified engineer's calculation, your contracts, or your lawyer, broker and
 insurer.
+
+---
+
+*Maintained by [Constructelligence](https://constructelligence.co) — construction cost intelligence for
+contractors.*
