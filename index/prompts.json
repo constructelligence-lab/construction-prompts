@@ -1,0 +1,482 @@
+{
+  "generated_on": "2026-09-24",
+  "count": 28,
+  "prompts": [
+    {
+      "title": "Bid qualification: go or no-go",
+      "section": "Preconstruction",
+      "slug": "bid-go-no-go",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "bidding",
+        "risk",
+        "preconstruction"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/01-preconstruction/01-bid-go-no-go.md"
+    },
+    {
+      "title": "Constructability risk review of a drawing set",
+      "section": "Preconstruction",
+      "slug": "constructability-risk-review",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "preconstruction",
+        "drawings",
+        "risk"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/01-preconstruction/02-constructability-risk-review.md"
+    },
+    {
+      "title": "Programme and sequencing options",
+      "section": "Preconstruction",
+      "slug": "programme-and-sequencing-options",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "preconstruction",
+        "programme",
+        "sequencing"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/01-preconstruction/03-programme-and-sequencing-options.md"
+    },
+    {
+      "title": "Unit rate sanity check",
+      "section": "Estimating and takeoff",
+      "slug": "unit-rate-sanity-check",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "estimating",
+        "pricing",
+        "review"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/02-estimating/01-unit-rate-sanity-check.md"
+    },
+    {
+      "title": "Takeoff review checklist",
+      "section": "Estimating and takeoff",
+      "slug": "takeoff-review-checklist",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "takeoff",
+        "quantities",
+        "quality"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/02-estimating/02-takeoff-review-checklist.md"
+    },
+    {
+      "title": "Change order pricing narrative",
+      "section": "Estimating and takeoff",
+      "slug": "change-order-pricing-narrative",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "change-orders",
+        "commercial",
+        "pricing"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/02-estimating/03-change-order-pricing-narrative.md"
+    },
+    {
+      "title": "Productivity assumption stress test",
+      "section": "Estimating and takeoff",
+      "slug": "productivity-assumption-stress-test",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "productivity",
+        "labour",
+        "risk"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/02-estimating/04-productivity-assumption-stress-test.md"
+    },
+    {
+      "title": "Design brief from a client conversation",
+      "section": "Architecture and design",
+      "slug": "design-brief-from-conversation",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "brief",
+        "client",
+        "architecture"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/03-architecture/01-design-brief-from-conversation.md"
+    },
+    {
+      "title": "Specification section draft",
+      "section": "Architecture and design",
+      "slug": "specification-section-draft",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "specification",
+        "documentation",
+        "quality"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/03-architecture/02-specification-section-draft.md"
+    },
+    {
+      "title": "Code and accessibility checklist for a design review",
+      "section": "Architecture and design",
+      "slug": "code-and-accessibility-checklist",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "code",
+        "accessibility",
+        "compliance"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/03-architecture/03-code-and-accessibility-checklist.md"
+    },
+    {
+      "title": "Design review agenda that finds problems",
+      "section": "Architecture and design",
+      "slug": "design-review-agenda",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "coordination",
+        "meetings",
+        "design"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/03-architecture/04-design-review-agenda.md"
+    },
+    {
+      "title": "Photorealistic exterior render prompt",
+      "section": "Visualisation and rendering",
+      "slug": "photorealistic-exterior-render",
+      "models": [
+        "ChatGPT",
+        "Gemini"
+      ],
+      "tags": [
+        "rendering",
+        "visualisation",
+        "marketing"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/04-visualisation/01-photorealistic-exterior-render.md"
+    },
+    {
+      "title": "Interior render: iteration prompt",
+      "section": "Visualisation and rendering",
+      "slug": "interior-render-iteration",
+      "models": [
+        "ChatGPT",
+        "Gemini"
+      ],
+      "tags": [
+        "rendering",
+        "interior",
+        "iteration"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/04-visualisation/02-interior-render-iteration.md"
+    },
+    {
+      "title": "Render critique before it goes to the client",
+      "section": "Visualisation and rendering",
+      "slug": "render-critique-before-client",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "rendering",
+        "review",
+        "presentation"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/04-visualisation/03-render-critique-before-client.md"
+    },
+    {
+      "title": "Structural load path sanity check",
+      "section": "Engineering",
+      "slug": "load-path-sanity-check",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "structure",
+        "review",
+        "engineering"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/05-engineering/01-load-path-sanity-check.md"
+    },
+    {
+      "title": "MEP coordination and clash triage",
+      "section": "Engineering",
+      "slug": "mep-coordination-clash-triage",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "mep",
+        "coordination",
+        "bim"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/05-engineering/02-mep-coordination-clash-triage.md"
+    },
+    {
+      "title": "Schedule narrative for the owner",
+      "section": "Scheduling and planning",
+      "slug": "schedule-narrative-for-owner",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "schedule",
+        "reporting",
+        "communication"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/06-scheduling/01-schedule-narrative-for-owner.md"
+    },
+    {
+      "title": "Three-week lookahead constraint sweep",
+      "section": "Scheduling and planning",
+      "slug": "lookahead-constraint-sweep",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "lookahead",
+        "field",
+        "planning"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/06-scheduling/02-lookahead-constraint-sweep.md"
+    },
+    {
+      "title": "Daily report from messy field notes",
+      "section": "Site and field operations",
+      "slug": "daily-report-from-notes",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "field",
+        "records",
+        "daily-report"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/07-site-operations/01-daily-report-from-notes.md"
+    },
+    {
+      "title": "RFI drafting that gets answered",
+      "section": "Site and field operations",
+      "slug": "rfi-drafting",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "rfi",
+        "documents",
+        "coordination"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/07-site-operations/02-rfi-drafting.md"
+    },
+    {
+      "title": "Job safety analysis from a task description",
+      "section": "Safety and compliance",
+      "slug": "jsha-from-task-description",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "safety",
+        "jsha",
+        "field"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/08-safety/01-jsha-from-task-description.md"
+    },
+    {
+      "title": "Toolbox talk from a real near miss",
+      "section": "Safety and compliance",
+      "slug": "toolbox-talk-from-near-miss",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "safety",
+        "training",
+        "briefing"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/08-safety/02-toolbox-talk-from-near-miss.md"
+    },
+    {
+      "title": "Contract risk review preparation",
+      "section": "Contracts and commercial",
+      "slug": "contract-risk-review",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "contracts",
+        "risk",
+        "commercial"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/09-commercial/01-contract-risk-review.md"
+    },
+    {
+      "title": "Notice letter draft",
+      "section": "Contracts and commercial",
+      "slug": "notice-letter-draft",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "notices",
+        "claims",
+        "correspondence"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/09-commercial/02-notice-letter-draft.md"
+    },
+    {
+      "title": "Project case study from the facts",
+      "section": "Business development",
+      "slug": "case-study-from-facts",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "marketing",
+        "case-study",
+        "bd"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/10-business-development/01-case-study-from-facts.md"
+    },
+    {
+      "title": "Tailoring a proposal to the client's actual concerns",
+      "section": "Business development",
+      "slug": "proposal-tailoring",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "proposals",
+        "bidding",
+        "bd"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/10-business-development/02-proposal-tailoring.md"
+    },
+    {
+      "title": "IFC data extraction script",
+      "section": "Automation and analysis",
+      "slug": "ifc-data-extraction-script",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "ifc",
+        "bim",
+        "python",
+        "automation"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/11-automation/01-ifc-data-extraction-script.md"
+    },
+    {
+      "title": "Job cost analysis in Python or pandas",
+      "section": "Automation and analysis",
+      "slug": "job-cost-analysis-in-python",
+      "models": [
+        "ChatGPT",
+        "Claude",
+        "Gemini"
+      ],
+      "tags": [
+        "job-cost",
+        "python",
+        "analysis",
+        "automation"
+      ],
+      "updated": "2026-09-24",
+      "path": "prompts/11-automation/02-job-cost-analysis-in-python.md"
+    }
+  ]
+}
