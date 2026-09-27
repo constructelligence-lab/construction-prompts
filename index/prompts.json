@@ -4,6 +4,7 @@
   "prompts": [
     {
       "title": "Bid qualification: go or no-go",
+      "summary": "An invitation to bid lands and you need a defensible recommendation before you spend a week estimating it.",
       "section": "Preconstruction",
       "slug": "bid-go-no-go",
       "models": [
@@ -21,6 +22,7 @@
     },
     {
       "title": "Constructability risk review of a drawing set",
+      "summary": "You are pricing or planning a job and want a structured list of buildability questions before the bid goes in.",
       "section": "Preconstruction",
       "slug": "constructability-risk-review",
       "models": [
@@ -38,6 +40,7 @@
     },
     {
       "title": "Programme and sequencing options",
+      "summary": "You have a target completion date and a rough scope, and you want the plausible sequencing options on the table before you build a CPM schedule.",
       "section": "Preconstruction",
       "slug": "programme-and-sequencing-options",
       "models": [
@@ -55,6 +58,7 @@
     },
     {
       "title": "Unit rate sanity check",
+      "summary": "An estimate is nearly finished and you want a second pair of eyes on whether the rates and quantities hang together \u2014 before the bid goes in, not after.",
       "section": "Estimating and takeoff",
       "slug": "unit-rate-sanity-check",
       "models": [
@@ -72,6 +76,7 @@
     },
     {
       "title": "Takeoff review checklist",
+      "summary": "A takeoff has been produced \u2014 by a person, by software, or by one of the tools in our [open source construction tools](https://github.com/constructelligence-lab/open-source-construction-tools) list \u2014 and it needs a review that is actually systematic.",
       "section": "Estimating and takeoff",
       "slug": "takeoff-review-checklist",
       "models": [
@@ -89,6 +94,7 @@
     },
     {
       "title": "Change order pricing narrative",
+      "summary": "The numbers are agreed internally and now need to be presented so they are hard to argue with \u2014 typically for a priced change that a client or a subcontractor will scrutinise.",
       "section": "Estimating and takeoff",
       "slug": "change-order-pricing-narrative",
       "models": [
@@ -106,6 +112,7 @@
     },
     {
       "title": "Productivity assumption stress test",
+      "summary": "An estimate depends on production rates you have assumed rather than measured, and you want to know how much of the margin is riding on them.",
       "section": "Estimating and takeoff",
       "slug": "productivity-assumption-stress-test",
       "models": [
@@ -123,6 +130,7 @@
     },
     {
       "title": "Design brief from a client conversation",
+      "summary": "You have come out of a client meeting with scattered notes and need a written brief that the client can confirm or correct before design work starts.",
       "section": "Architecture and design",
       "slug": "design-brief-from-conversation",
       "models": [
@@ -140,6 +148,7 @@
     },
     {
       "title": "Specification section draft",
+      "summary": "You need a first draft of a specification section structure so you are editing rather than staring at an empty document \u2014 with the understanding that the technical content is yours, not the model's.",
       "section": "Architecture and design",
       "slug": "specification-section-draft",
       "models": [
@@ -157,6 +166,7 @@
     },
     {
       "title": "Code and accessibility checklist for a design review",
+      "summary": "You want a structured set of compliance questions to work through for a design, recognising that the model does not know your local code and must not be treated as knowing it.",
       "section": "Architecture and design",
       "slug": "code-and-accessibility-checklist",
       "models": [
@@ -174,6 +184,7 @@
     },
     {
       "title": "Design review agenda that finds problems",
+      "summary": "You are running a design or coordination review and want an agenda that surfaces conflicts rather than walking through the drawings in order.",
       "section": "Architecture and design",
       "slug": "design-review-agenda",
       "models": [
@@ -191,6 +202,7 @@
     },
     {
       "title": "Photorealistic exterior render prompt",
+      "summary": "You need a client-ready exterior visual quickly, before the model is advanced enough for a proper render, or to explore a fa\u00e7ade direction.",
       "section": "Visualisation and rendering",
       "slug": "photorealistic-exterior-render",
       "models": [
@@ -207,6 +219,7 @@
     },
     {
       "title": "Interior render: iteration prompt",
+      "summary": "The first interior image is close but wrong \u2014 the light, the proportions or the materials \u2014 and you want to change one thing at a time rather than regenerate from scratch.",
       "section": "Visualisation and rendering",
       "slug": "interior-render-iteration",
       "models": [
@@ -223,6 +236,7 @@
     },
     {
       "title": "Render critique before it goes to the client",
+      "summary": "You are about to send a visual to a client and want a hard critique first \u2014 one that finds the things an architect, a planner or a contractor would spot immediately.",
       "section": "Visualisation and rendering",
       "slug": "render-critique-before-client",
       "models": [
@@ -240,6 +254,7 @@
     },
     {
       "title": "Structural load path sanity check",
+      "summary": "You are preparing for a coordination or value-engineering discussion and want the obvious load path and stability questions on the table.",
       "section": "Engineering",
       "slug": "load-path-sanity-check",
       "models": [
@@ -257,6 +272,7 @@
     },
     {
       "title": "MEP coordination and clash triage",
+      "summary": "You have a clash report or a coordination problem list and need to decide which clashes matter, in what order to resolve them, and who should move.",
       "section": "Engineering",
       "slug": "mep-coordination-clash-triage",
       "models": [
@@ -274,6 +290,7 @@
     },
     {
       "title": "Schedule narrative for the owner",
+      "summary": "The monthly schedule update is done and needs the narrative section: what moved, why, what you are doing about it, and what you need \u2014 without excuses and without jargon.",
       "section": "Scheduling and planning",
       "slug": "schedule-narrative-for-owner",
       "models": [
@@ -291,6 +308,7 @@
     },
     {
       "title": "Three-week lookahead constraint sweep",
+      "summary": "You are building the next three-week lookahead and want to remove constraints before they stop work, rather than reporting them after the fact.",
       "section": "Scheduling and planning",
       "slug": "lookahead-constraint-sweep",
       "models": [
@@ -308,6 +326,7 @@
     },
     {
       "title": "Daily report from messy field notes",
+      "summary": "The day's notes are a mix of texts, voice-note reminders and scribbles, and the report needs to be written before you go home \u2014 with the facts intact and nothing invented.",
       "section": "Site and field operations",
       "slug": "daily-report-from-notes",
       "models": [
@@ -325,6 +344,7 @@
     },
     {
       "title": "RFI drafting that gets answered",
+      "summary": "Something on site does not match the drawings and you need an RFI that is clear enough to be answered first time, with the schedule impact stated.",
       "section": "Site and field operations",
       "slug": "rfi-drafting",
       "models": [
@@ -342,6 +362,7 @@
     },
     {
       "title": "Job safety analysis from a task description",
+      "summary": "You are preparing a task-specific safety analysis and want a structured first draft to edit with the crew, rather than starting from a template that says nothing about this job.",
       "section": "Safety and compliance",
       "slug": "jsha-from-task-description",
       "models": [
@@ -359,6 +380,7 @@
     },
     {
       "title": "Toolbox talk from a real near miss",
+      "summary": "Something nearly went wrong on this site and you want a five-minute talk that lands with the crew, rather than a generic briefing they have heard ten times.",
       "section": "Safety and compliance",
       "slug": "toolbox-talk-from-near-miss",
       "models": [
@@ -376,6 +398,7 @@
     },
     {
       "title": "Contract risk review preparation",
+      "summary": "A contract or subcontract is on your desk and you want the risk topics organised before it goes to your lawyer, so the expensive hours are spent on judgement rather than on reading out loud.",
       "section": "Contracts and commercial",
       "slug": "contract-risk-review",
       "models": [
@@ -393,6 +416,7 @@
     },
     {
       "title": "Notice letter draft",
+      "summary": "An event has occurred and the contract requires written notice.",
       "section": "Contracts and commercial",
       "slug": "notice-letter-draft",
       "models": [
@@ -410,6 +434,7 @@
     },
     {
       "title": "Project case study from the facts",
+      "summary": "You have finished a job worth writing about and need a case study for the website, a proposal or a prequalification pack \u2014 without inventing anything and without breaching confidentiality.",
       "section": "Business development",
       "slug": "case-study-from-facts",
       "models": [
@@ -427,6 +452,7 @@
     },
     {
       "title": "Tailoring a proposal to the client's actual concerns",
+      "summary": "You have a standard proposal structure and a specific client, and you want the document to answer what *they* are worried about instead of repeating your company history.",
       "section": "Business development",
       "slug": "proposal-tailoring",
       "models": [
@@ -444,6 +470,7 @@
     },
     {
       "title": "IFC data extraction script",
+      "summary": "You need a repeatable way to pull data out of IFC models \u2014 quantities, spaces, properties \u2014 instead of clicking through them, and you would rather review code than write the boilerplate.",
       "section": "Automation and analysis",
       "slug": "ifc-data-extraction-script",
       "models": [
@@ -462,6 +489,7 @@
     },
     {
       "title": "Job cost analysis in Python or pandas",
+      "summary": "Your accounting system will give you a job cost export but not the analysis you want, and the work is repetitive enough to script rather than rebuild in a spreadsheet every month.",
       "section": "Automation and analysis",
       "slug": "job-cost-analysis-in-python",
       "models": [

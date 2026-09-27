@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: If you use or adapt this work, please cite it as below.
+type: software
+title: "Construction prompts for ChatGPT, Claude and Gemini"
+abstract: "Prompts for ChatGPT, Claude and Gemini written for construction work: estimating, architecture, rendering, engineering, scheduling, site, safety, commercial and BD."
+authors:
+  - name: Constructelligence
+    website: https://constructelligence.co
+repository-code: https://github.com/constructelligence-lab/construction-prompts
+url: https://constructelligence.co
+license: CC-BY-4.0
+date-released: 2026-09-24
+keywords:
+  - "construction"
+  - "AEC"
+  - "prompt engineering"
+  - "ChatGPT"
+  - "Claude"
+  - "Gemini"
+  - "estimating"

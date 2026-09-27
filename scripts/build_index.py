@@ -12,7 +12,6 @@ from __future__ import annotations
 import json
 import re
 import sys
-from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -73,6 +72,18 @@ def parse_front_matter(text: str) -> dict:
     return data
 
 
+ALL_MODELS = ["ChatGPT", "Claude", "Gemini"]
+
+
+def use_it_when(text: str) -> str:
+    """First sentence of the "Use it when" section: short enough for a table row."""
+    match = re.search(r"^## Use it when\s*\n(.*?)(?:\n\n|\n## )", text, re.S | re.M)
+    if not match:
+        return ""
+    paragraph = " ".join(match.group(1).split())
+    return re.split(r"(?<=[.!?])\s+(?=[A-Z])", paragraph, maxsplit=1)[0]
+
+
 def load_prompts() -> list[dict]:
     entries = []
     for path in sorted(PROMPTS.rglob("*.md")):
@@ -81,6 +92,7 @@ def load_prompts() -> list[dict]:
         entries.append(
             {
                 "title": str(meta.get("title", "")),
+                "summary": use_it_when(text),
                 "section": str(meta.get("section", "")),
                 "slug": str(meta.get("slug", path.stem)),
                 "models": meta.get("models", []),
@@ -98,20 +110,20 @@ def render(entries: list[dict]) -> str:
         group = [e for e in entries if e["section"] == section]
         if not group:
             continue
-        group.sort(key=lambda e: e["title"].lower())
+        group.sort(key=lambda e: e["path"])  # numbered file order: the order the work happens in
         out.append(f"### {section}")
         out.append("")
         blurb = SECTION_BLURB.get(section)
         if blurb:
             out.append(f"*{blurb}*")
             out.append("")
-        out.append("| Prompt | File | Models | Tags |")
-        out.append("| --- | --- | --- | --- |")
+        out.append("| Prompt | Use it when | Tags |")
+        out.append("| --- | --- | --- |")
         for entry in group:
-            models = ", ".join(entry["models"]) if entry["models"] else "any"
             tags = " ".join(f"`{tag}`" for tag in entry["tags"]) if entry["tags"] else ""
-            filename = entry["path"].split("/")[-1]
-            out.append(f"| **{entry['title']}** | [`{filename}`]({entry['path']}) | {models} | {tags} |")
+            # Every prompt works in all three models; only an exception is worth a table cell.
+            only = "" if sorted(entry["models"]) == ALL_MODELS else f"<br>*{', '.join(entry['models'])} only*"
+            out.append(f"| [**{entry['title']}**]({entry['path']}){only} | {entry['summary']} | {tags} |")
         out.append("")
     return "\n".join(out).rstrip() + "\n"
 
@@ -144,7 +156,7 @@ def main() -> int:
     INDEX.parent.mkdir(parents=True, exist_ok=True)
     INDEX.write_text(
         json.dumps(
-            {"generated_on": date.today().isoformat(), "count": len(entries), "prompts": entries},
+            {"generated_on": max((e["updated"] for e in entries), default=""), "count": len(entries), "prompts": entries},
             indent=2,
         )
         + "\n",
