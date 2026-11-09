@@ -13,6 +13,13 @@ drifts, so the library cannot quietly go stale.
 ![prompts](https://img.shields.io/badge/prompts-28-1f6feb) ![licence](https://img.shields.io/badge/licence-CC%20BY%204.0-2ea043) ![validated](https://img.shields.io/badge/index-validated%20in%20CI-6e7781)
 <!-- end:badge -->
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/prompts-dark.svg">
+    <img src="assets/prompts-light.svg" alt="28 construction prompts across 11 sections, with estimating and architecture the largest" width="100%">
+  </picture>
+</p>
+
 ## How to use this library
 
 1. **Find the decision, not the topic.** The sections are organised around work you are actually
